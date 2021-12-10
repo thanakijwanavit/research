@@ -3,7 +3,7 @@
    - Extensive review paper
 2. **Ramakrishnan, A., Ottmar, E., LoCasale-Crouch, J., & Whitehill, J. (2019, May). Toward automated classroom observation: Predicting positive and negative climate. In 2019 14th IEEE international conference on automatic face & gesture recognition (FG 2019) (pp. 1-8). IEEE.**
    - MTL : transfer learning VGG16 pre-trained on ImageNet without "unlcear" images  + 2 dense layers binary detectors
-   - ![Screen Shot 2564-12-07 at 16.59.31](/Users/pinnareet/Library/Mobile Documents/com~apple~CloudDocs/Documents/tenxor/research/childrenEnjoyment/ramakrishnanEtAlFig1.png)
+   - ![Screen Shot 2564-12-07 at 16.59.31](./ramakrishnanEtAlFig1.png)
    - Pearson r=.40 and .51 for positive and negative climate w.r.t. ground-truth
 3. **Ramakrishnan, A., Zylich, B., Ottmar, E., LoCasale-Crouch, J., & Whitehill, J. (2021). Toward automated classroom observation: Multimodal machine learning to estimate class positive climate and negative climate. IEEE Transactions on Affective Computing.**
    - Created ACORN (Automatic Classroom Observation Recognition Network) which can predict positive and negative climate with Pearson r=.55 and .63 w.r.t. labels provided by expert CLASS coders. The best performing model with the accuracy stated is Resnet CNN backbone + TCN (reduce accuracy but faster training) + attention
